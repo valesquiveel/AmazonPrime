@@ -5,32 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acessar Amazon</title>
+    <link rel="stylesheet" href="../styles/login.css">
 </head>
 <body>
-    <img src="" alt="">
+    <header><img id="img" src="../image/prime-video-logo-prime-video-icon-transparent-logo-free-png.webp" alt=""></header>
     <form action="">
         <fieldset>
-            <h1>Fazer Login</h1>
-            <label for="login">E-mail ou número de telefone celular</label>
-            <input type="text" name="login" id="login">
+            <div id="tudo">
+                <h1>Fazer Login</h1>
+                <div class="es">
+                    <label for="login">E-mail ou número de telefone celular</label>
+                    <input type="text" name="login" id="login">
+                </div>
+                <div class="es">
+                    <div id="esqueci"><label for="senha">Senha</label><label for="senha"><a id="esqueci1" href="">Esqueci a senha</a></label></div>
+                    <input type="password" name="senha" id="senha">
+                </div>
+                <input type="submit" value="Continuar" id="continuar">
+                <p id="info">Ao continuar, você concorda com as <a href="">Condições de uso</a>. Por favor verifique as <a href="">Notificação de Privacidade</a>, <a href="">Notificação de Cookies</a> e a <a href="">Notificação de Anúncios Baseados em Interesse.</a></p>
+                <div id="conectados">
+                    <input type="checkbox" name="conectado" id="conectado">
+                    <label id="conectado1" for="conectado">Mantenha-me conectado. <a href="">Detalhes</a></label>
+                </div>
+                <p>Novo na Amazon?</p>
 
-            <label for="senha">Senha</label><label for="senha"><a href="">Esqueci a senha</a></label>
-            <input type="password" name="senha" id="senha">
-
-            <input type="submit">
-
-            <p>Ao continuar, você concorda com as <a href="">Condições de uso</a>. Por favor verifique as <a href="">Notificação de Privacidade</a>, <a href="">Notificação de Cookies</a> e a <a href="">Notificação de Anúncios Baseados em Interesse.</a></p>
-
-            <input type="checkbox" name="conectado" id="conectado">
-            <label for="conectado">Mantenha-me conectado. <a href="">Detalhes</a></label>
-
-            <p>Novo na Amazon?</p>
-            <input type="submit">
+                <input type="submit" id="criar" value="Criar sua conta da Amazon">
+            </div>
         </fieldset>
 
-        <a href="">Termos e aviso de privacidade</a>
-        <a href=""> Enviar feedback </a>
-        <a href=""> Ajuda </a>
+        <div id="fim">
+            <a href="">Termos e aviso de privacidade</a>
+            <a href=""> Enviar feedback </a>
+            <a href=""> Ajuda </a>
+        </div>
 
         <p>© 2021-2023 Amazon.com, Inc. ou suas afiliadas</p>
     </form>    

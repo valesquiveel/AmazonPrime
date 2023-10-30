@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'amazon1';
+    src: url(../fonts/AmazonEmber_Lt.woff);
+}
+
+@font-face {
+    font-family: 'amazon2';
+    src: url(../fonts/AmazonEmber_Rg.woff);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    width: 250px;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset {
+    width: 25%;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#tudo {
+    margin-left: 4%;
+}
+
+
+h1 {
+    font-family: 'amazon1';
+    margin-bottom: 25px;
+}
+
+.es {
+    display: flex;
+    flex-direction: column;
+}
+
+#login, #senha, #continuar, #criar{
+    width: 95%;
+    margin-bottom: 25px;
+    height: 31px;
+}
+
+#esqueci {
+    display: flex;
+    justify-content: space-between;
+}
+
+#esqueci1 {
+    font-family: 'amazon1';
+    margin-right: 20px;
+}
+
+#fim {
+    display: flex;
+}
+
+.es {
+    font-family: 'amazon2';
+    font-weight: 900;
+}
+
+#continuar, #criar {
+    font-family: 'amazon2';
+}
+
+
+#info {
+    margin-right: 4%;
+    margin-bottom: 25px;
+    font-family: 'amazon2';
+}
+
+#conectado {
+    margin-left: 7px;
+}
+
+#conectado1 {
+    font-family: 'amazon2';
+}
+
+#conectados {
+    margin-bottom: 35px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'amazon2';
+    color: #0F79AF;
+}

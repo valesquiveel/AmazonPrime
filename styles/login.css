@@ -19,7 +19,7 @@ header {
 }
 
 img {
-    width: 250px;
+    width: 220px;
     
 }
 
@@ -31,11 +31,12 @@ form {
 }
 
 fieldset {
-    width: 25%;
+    width: 21.8%;
     border-radius: 7px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border: solid 1px #c5c5c5;
 }
 
 #tudo {
@@ -46,6 +47,7 @@ fieldset {
 h1 {
     font-family: 'amazon1';
     margin-bottom: 25px;
+    margin-top: 20px;
 }
 
 .es {
@@ -57,6 +59,8 @@ h1 {
     width: 95%;
     margin-bottom: 25px;
     height: 31px;
+    font-size: 16px;
+    border-radius: 3px;
 }
 
 #esqueci {
@@ -66,11 +70,15 @@ h1 {
 
 #esqueci1 {
     font-family: 'amazon1';
-    margin-right: 20px;
+    margin-right: 25px;
 }
 
-#fim {
-    display: flex;
+#fim{
+    margin: 15px;
+}
+
+.fim {
+    margin: 15px;   
 }
 
 .es {
@@ -80,6 +88,8 @@ h1 {
 
 #continuar, #criar {
     font-family: 'amazon2';
+    height: 35px;
+    cursor: pointer;
 }
 
 
@@ -87,6 +97,14 @@ h1 {
     margin-right: 4%;
     margin-bottom: 25px;
     font-family: 'amazon2';
+    font-size: 15px;
+}
+
+.novo {
+    font-family: 'amazon1';
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 15px;
 }
 
 #conectado {
@@ -105,4 +123,36 @@ a {
     text-decoration: none;
     font-family: 'amazon2';
     color: #0F79AF;
+}
+
+#continuar{
+    background-color:  #ffc940;
+    border: solid 0.5px #A98634;
+}
+
+#criar {
+    background-color: #EDEEF1;
+    border: solid 0.5px #c5c5c5;
+}
+
+#login:focus {
+    outline: 2px solid #C8F3FA ;
+    background-color: #c8f3fa1f;
+}
+
+#senha:focus {
+    outline: 2px solid #C8F3FA ;
+    background-color: #c8f3fa1f;
+}
+
+#login, #senha {
+    border: solid 0.5px #c5c5c5;
+}
+
+#continuar:hover {
+    background-color: #ffbe28;
+}
+
+#criar:hover {
+    background-color: #e2dede;
 }
